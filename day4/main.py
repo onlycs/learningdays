@@ -14,7 +14,6 @@ from topic4 import Topic4
 
 class Day4(Slide, Scene):
     def construct(self):
-        
         s = TopicScheduler(
             [
                 Title(), 
