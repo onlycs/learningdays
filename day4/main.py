@@ -2,7 +2,6 @@ from manim import NumberPlane, Scene, Text
 from manim import Write, Succession as Sequence, Wait
 from manim_slides.slide.manim import Slide
 
-from day4.topic5 import Topic5
 from title import Title
 from home import Home
 
@@ -11,6 +10,7 @@ from topic1 import Topic1
 from topic2 import Topic2
 from topic3 import Topic3
 from topic4 import Topic4
+from topic5 import Topic5
 
 class Day4(Slide, Scene):
     def construct(self):
